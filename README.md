@@ -1,12 +1,11 @@
 #Importação planilha excel para pai x filho - ECM / Fluig
-=========================================================
 
 ## Objetivo
 
 Realizar importação de arquivo excel para pai x filho - ECM / Fluig
 
 
-### Pré - requisitos
+### Requisitos
 
 * Arquivo excel de importação deve conter na sua primeira linha nome corresponde a informação da coluna.
 
@@ -19,7 +18,7 @@ Para linha 1 e coluna B temos como descrição 'quantidade' sem aspas.
 
 Portanto na linha 50 do arquivo 'appImport.js' temos:
 	
-	<pre><code> adicionaItem(output[i].item,output[i].quantidade); </code></pre>
+	adicionaItem(output[i].item,output[i].quantidade);
 
 
 Projeto está aberto para melhorias e correções.
