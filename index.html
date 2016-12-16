@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>Excel To Pai x Filho</title>
+	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+
+	<div id="tudo" class="container">
+		
+		<form name="form1" id="form1">
+
+			<div class="row">&nbsp;</div>
+
+	        <div class="row">
+	        	<div class="col-xs-2 middleBtn">
+	            	
+			    	<input type="hidden" id="txtArrayJsonItens" name="txtArrayJsonItens" />
+	                
+	                <span id="imgAddItem" class="btn btn-primary btn-md">
+	                  <i class="glyphicon glyphicon-plus-sign"></i> ADICIONAR ITEM
+	                </span>
+	        	</div>
+	        	<div class="col-xs-10">
+	          		<div id="dropFile">Arraste e solte o arquivo para realizar a importação, formato do arquivo suportado é XLSX</div>
+	        	</div>
+	        </div>
+
+			<div class="row">&nbsp;</div>
+
+	        <div class="row input-group-sm">
+
+	            <table id="tbItem" tablename="tbItem" class="table table-bordered table-striped table-condensed" noaddbutton=true>
+	              <thead>
+	                <tr class="active">
+						<th>Código</th>
+						<th>Qtde</th>
+	              </thead>
+	              <tbody>
+	                <tr>
+	                    <td>
+	                        <input type="text" id="txtCodigo" name="txtCodigo" class="form-control" />
+	                    </td>
+						<td>
+						    <input type="text" id="txtQtd" name="txtQtd" class="form-control" />
+						</td>
+	                </tr>
+	              </tbody>
+	            </table>
+	            
+	        </div>
+
+		</form>
+
+	</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="xlsx.core.min.js"></script>
+	<script type="text/javascript" src="shim.js"></script>
+	<script type="text/javascript" src="jszip.js"></script>
+	<script type="text/javascript" src="xlsx.js"></script>
+	<script type="text/javascript" src="ods.js"></script>
+	<script type="text/javascript" src="appImport.js"></script>
+	<script type="text/javascript" src="utils.js"></script>
+
+</body>
+</html>
