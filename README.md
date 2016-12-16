@@ -1,7 +1,10 @@
-OBJETIVO
-==========
+#Importação planilha excel para pai x filho - ECM / Fluig
+=========================================================
+
+## Objetivo
 
 Realizar importação de arquivo excel para pai x filho - ECM / Fluig
+
 
 ### Pré - requisitos
 
@@ -26,4 +29,3 @@ Projeto está aberto para melhorias e correções.
 ### Créditos
 
 	SheetJS/js-xlsx - (https://github.com/SheetJS/js-xlsx)
-	
