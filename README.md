@@ -14,6 +14,7 @@ Realizar importação de arquivo excel para pai x filho - ECM / Fluig
 ** Exemplo:
 
 Para linha 1 e coluna A temos como descrição 'item' sem aspas.
+
 Para linha 1 e coluna B temos como descrição 'quantidade' sem aspas.
 
 Portanto na linha 50 do arquivo 'appImport.js' temos:
