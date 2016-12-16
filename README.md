@@ -21,6 +21,19 @@ Portanto na linha 50 do arquivo 'appImport.js' temos:
 	
 	adicionaItem(output[i].item,output[i].quantidade);
 
+Função adicionaItem recebe os valores e passado para os respectivos campos conforme exemplo abaixo:
+
+	function adicionaItem(item,quantidade){
+		
+		var idx = wdkAddChild('tbItem');
+		
+		$("#txtCodigo___"+idx).val(item);
+		$("#txtQtd___"+idx).val(quantidade);
+				
+	}
+
+
+
 
 Projeto está aberto para melhorias e correções.
 
